@@ -1,0 +1,7 @@
+nltk==3.5
+numpy==1.18.5
+torch==1.7.1
+seaborn==0.11.1
+matplotlib==3.3.2
+psyco==1.6
+zhtools==0.0.5

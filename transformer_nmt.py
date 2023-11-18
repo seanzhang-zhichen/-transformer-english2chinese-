@@ -30,7 +30,7 @@ TRAIN_FILE = 'nmt/en-cn/train.txt'  # 训练集
 DEV_FILE = "nmt/en-cn/dev.txt"      # 验证集
 SAVE_FILE = 'save/model.pt'         # 模型保存路径
 #DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DEVICE = 'cpu'
+DEVICE = 'cuda'
 
 def seq_padding(X, padding=PAD):
     """
